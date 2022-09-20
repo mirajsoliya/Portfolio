@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/e9b5b71952.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#about" class="menu-btn"><i class="fas fa-user-alt"></i>About</a></li>
+                <li><a href="#services" class="menu-btn"><i class="fas fa-cog"></i>Services</a></li>
+                <li><a href="#skills" class="menu-btn"><i class="fab fa-codepen"></i>Skill</a></li>
+                <li><a href="#teams" class="menu-btn"><i class="fas fa-users"></i>Teams</a></li>
+                <li><a href="#contact" class="menu-btn"><i class="fas fa-phone-square-alt"></i></i>Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+
+            <div class="home-content">
+                <div class="text-1">Hello, My Name is</div>
+                <div class="text-2">Miraj.V.Soliya</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section start -->
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./8.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Hey , I'm Miraj Soliya And I'm a <span class="typing-2"></span></div>
+                    <p>
+                        I am studying B.Tech Information Technology in Dharmsinh Desai University (DDU),Nadiad.
+                        <br>
+                        I have completed my higher education from Tapovan high School, Surat .<br>
+                        I am a 5★ coder on hackerrank as well as 2★ coder on codeshef and have solved 100+ questions on Leetcode.
+                        <br>
+                        I am a Web Enthusiast who also loves to do Competitive Programming.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section start -->
+
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>I make Website Using HTML,CSS,JavaScript AND Using Libraries Like ReactJS,Express,NodeJS. </p>
+
+                    </div>
+                </div>
+               <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Competitive coder</div>
+                        <p>I have good experience with C++ language . DSA and OOPS are also.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skill section strat -->
+    <section class="skills" id="skills">
+
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative Skills :</div>
+                    <p class="textin">Libraries & Frameworks : </p>
+                    <p>• ReactJS</p><p>• Express</p><p>• NodeJS.</p><br>
+                    <p class="textin">Databased : </p>
+                    <p>• MongoDB</p><br>
+                    <p class="textin">Course Work : </p>
+                    <p>• Data structure and algorithm</p>
+                    <p>• Object oriented programming</p>
+                    <p>• Database management system</p>
+                    <p>• Computer Network</p>
+
+                    <a href="./miraj_resume.pdf" download ><button>Resume</button></a>
+
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>C</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line c"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C++</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line cplus"></div>
+
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Node Js</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line node"></div>
+
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>55%</span>
+                        </div>
+                        <div class="line java"></div>
+
+                    </div>
+
+
+                </div>
+            </div>
+    </section>
+
+    <!-- team section strat -->
+
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My teams</h2>
+            <div class="carousel owl-carousel">
+                
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="rajn.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Raj Navadiya<br><span>Competitive Programmer</span><br><span>Web Developer</span><br><span>Information Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="https://www.facebook.com/ghanshyambhai.navadiya.7"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/raj_navadiya_972/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a
+                                    href="https://www.linkedin.com/search/results/all/?keywords=raj%20navadiya&origin=RICH_QUERY_SUGGESTION&position=0&searchId=bd13cf5c-282c-4efb-ae3a-e320e17995f1&sid=FE)"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="yash.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Yash Ginoya<br><span>Competitive Programmer</span><br><span>Android Developer</span><br><span>Computer Engineer(B.Tech) <br>From Nirma University,Ahmedabad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="https://www.facebook.com/search/top/?q=yash%20ginoya"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/yash.ginoya/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a
+                                    href="https://www.linkedin.com/in/yashginoya/"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="fenil.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Fenil Savani<br><span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="https://www.facebook.com/fenil.savani.58"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/_fenil_savani_/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a
+                                    href="https://www.linkedin.com/search/results/all/?keywords=fenil%20savani&origin=RICH_QUERY_SUGGESTION&position=2&searchId=9686b241-a2c9-4211-b4ef-9b5d165120ed&sid=px."><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="harshvardhan.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Harshvardhansinh Jadeja<br><span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information Technology  (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/harshvardhan_49/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a
+                                    href="https://www.linkedin.com/search/results/all/?keywords=jadeja%20harshvardhansinh&origin=RICH_QUERY_SUGGESTION&position=0&searchId=6f033f08-0e85-455d-abe8-6b2b2c63f313&sid=7tL"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="prince.jpg " alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Prince Vekariya<br><span>Chemical Engineer (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="https://www.facebook.com/prince.vekariya.71"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/prince.vekariya.71/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a
+                                    href="https://www.linkedin.com/search/results/all/?keywords=prince%20vekariya&origin=RICH_QUERY_SUGGESTION&position=2&searchId=b925331d-584c-4d03-9d73-af5dcb50bf1f&sid=3qr"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="jenish.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Jenish Bodar<br><span> Chemical Engineer (B.Tech) <br>  From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/jenish_bodar_2026/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a href="https://www.linkedin.com/in/jenish-bodar-6a9542221/"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="swety.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Swetangi Satasiya<br><span>Competitive Programmer</span><br><span>Information Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i:1;"><a href="https://www.facebook.com/satasiya.swetangi"><i
+                                        class="fab fa-facebook"></i></a></li>
+                            <li style="--i:2;"><a href="https://www.instagram.com/swetangi_satasiya_/"><i
+                                        class="fab fa-instagram-square"></i></a></li>
+                            <li style="--i:3;"><a href="https://www.linkedin.com/in/swetangi-satasiya-91786422b/"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section strat -->
+
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+
+
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Miraj.V.Soliya</div>
+                            </div>
+                        </div>
+                       
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Surat,Gujarat.</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">mirajsoliya89@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="info">
+                                <div class="head">Contact</div>
+                                <div class="sub-title">(+91) 987 987 72 73</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.facebook.com/soliya.miraj.1"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/miraj_soliya/"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/miraj-soliya-27112002/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#" id="contactme">
+                        <div class="alert">Your message sent..</div>
+                        <br>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="yourname" placeholder="Name" required>
+                            </div>
+
+                            <div class="field email">
+                                <input type="email" id="youremail" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field ">
+                            <input type="text" id="yoursubject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea id="msg" cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start -->
+    <footer>
+        <span>Created By <a href="">Miraj Soliya</a> | <span class="far fa-copyright"></span>2021 All right
+            reserved.</span>
+    </footer>
+
+
+
+
+    <script src="index.js"></script>
+    <script src="portfolio.js"></script>
+
+</body>
+
+</html>
