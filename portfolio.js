@@ -26,14 +26,15 @@ const firebaseConfig = {
     saveMessage(name,email,subject,msgContent);
 
     //enable alert
-    document.querySelector('.alert').style.display="block";
+    // document.querySelector('.alert').style.display="block";
+    swal("Done", "Message sent successfully!!", "success");
     
     //remove alert
-    setTimeout(()=>{
+    // setTimeout(()=>{
 
-      document.querySelector('.alert').style.display="none";
+    //   document.querySelector('.alert').style.display="none";
 
-    },3000);
+    // },3000);
 
     //reset form
 

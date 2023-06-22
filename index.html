@@ -13,9 +13,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -68,7 +70,8 @@
                         I am studying B.Tech Information Technology in Dharmsinh Desai University (DDU),Nadiad.
                         <br>
                         I have completed my higher education from Tapovan high School, Surat .<br>
-                        I am a 5★ coder on hackerrank as well as 2★ coder on codeshef and have solved 100+ questions on Leetcode.
+                        I am a 5★ coder on hackerrank as well as 2★ coder on codechef and have solved 100+ questions on
+                        Leetcode.
                         <br>
                         I am a Web Enthusiast who also loves to do Competitive Programming.
                     </p>
@@ -84,15 +87,16 @@
         <div class="max-width">
             <h2 class="title">services</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="cardservice">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Web Developer</div>
-                        <p>I make Website Using HTML,CSS,JavaScript AND Using Libraries Like ReactJS,Express,NodeJS. </p>
+                        <p>I make Website Using HTML,CSS,JavaScript AND Using Libraries Like ReactJS,Express,NodeJS.
+                        </p>
 
                     </div>
                 </div>
-               <div class="card">
+                <div class="cardservice">
                     <div class="box">
                         <i class="fas fa-code"></i>
                         <div class="text">Competitive coder</div>
@@ -113,16 +117,33 @@
                 <div class="column left">
                     <div class="text">My creative Skills :</div>
                     <p class="textin">Libraries & Frameworks : </p>
-                    <p>• ReactJS</p><p>• Express</p><p>• NodeJS.</p><br>
+                    <p>• ReactJS</p>
+                    <p>• ExpressJs</p>
+                    <p>• React-Native</p>
+                    <p>• AJAX</p>
+                    <p>• NodeJs.</p>
+                    <p>• AngularJs.</p>
+                    <p>• JQuery.</p>
+                    <p>• Spring.</p>
+                    <p>• Spring-Mvc.</p>
+                    <p>• Spring-Boot.</p>
+                    <p>• Hibernate.</p>
+
+                    <br>
                     <p class="textin">Databased : </p>
-                    <p>• MongoDB</p><br>
+                    <p>• MongoDB</p>
+                    <p>• PostgreSQL</p>
+                    <p>• Derby</p>
+                    <br>
                     <p class="textin">Course Work : </p>
-                    <p>• Data structure and algorithm</p>
-                    <p>• Object oriented programming</p>
-                    <p>• Database management system</p>
+                    <p>• Data Structure and Algorithm</p>
+                    <p>• Design and Analysis of Algorithm</p>
+                    <p>• Object Oriented Programming</p>
+                    <p>• Operating Systems</p>
+                    <p>• Database Management System</p>
                     <p>• Computer Network</p>
 
-                    <a href="./miraj_soliya.pdf" download ><button>Resume</button></a>
+                    <a href="./miraj_soliya.pdf" download><button>Resume</button></a>
 
                 </div>
                 <div class="column right">
@@ -153,7 +174,7 @@
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>60%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line css"></div>
 
@@ -169,16 +190,8 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Node Js</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line node"></div>
-
-                    </div>
-                    <div class="bars">
-                        <div class="info">
                             <span>Java</span>
-                            <span>55%</span>
+                            <span>70%</span>
                         </div>
                         <div class="line java"></div>
 
@@ -190,152 +203,127 @@
     </section>
 
     <!-- team section strat -->
-
     <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">My teams</h2>
-            <div class="carousel owl-carousel">
-                
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="rajn.jpg" alt="">
-                    </div>
-                    <div class="content">
+            <div class="mycard">
+
+
+                <div class="container">
+                    <div class="card">
+                        <div class="image">
+                            <img src="raj.jpg" alt="" />
+                        </div>
+                        <h2>Raj Navadiya</h2>
                         <div class="contentBx">
-                            <h3>Raj Navadiya<br><span>Competitive Programmer</span><br><span>Web Developer</span><br><span>Information Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                            <span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information
+                                Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span>
                         </div>
                         <ul class="sci">
-                            <li style="--i:1;"><a href="https://www.facebook.com/ghanshyambhai.navadiya.7"><i
-                                        class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/raj_navadiya_972/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a
-                                    href="https://www.linkedin.com/search/results/all/?keywords=raj%20navadiya&origin=RICH_QUERY_SUGGESTION&position=0&searchId=bd13cf5c-282c-4efb-ae3a-e320e17995f1&sid=FE)"><i
-                                        class="fab fa-linkedin"></i></a></li>
+                            <a href="https://www.facebook.com/ghanshyambhai.navadiya.7"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/raj_navadiya_972/"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/rajnavadiya/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/rajnavadiya972/"><i class="fab fa-github"></i></a>
                         </ul>
                     </div>
-                </div>
-                
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="yash.jpg" alt="">
-                    </div>
-                    <div class="content">
+                    <div class="card">
+                        <div class="image">
+                            <img src="fenil.jpg" alt="" />
+                        </div>
+                        <h2>Fenil Savani</h2>
                         <div class="contentBx">
-                            <h3>Yash Ginoya<br><span>Competitive Programmer</span><br><span>Android Developer</span><br><span>Computer Engineer(B.Tech) <br>From Nirma University,Ahmedabad.</span></h3>
+                            <span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information
+                                Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span>
                         </div>
                         <ul class="sci">
-                            <li style="--i:1;"><a href="https://www.facebook.com/search/top/?q=yash%20ginoya"><i
-                                        class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/yash.ginoya/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a
-                                    href="https://www.linkedin.com/in/yashginoya/"><i
-                                        class="fab fa-linkedin"></i></a></li>
+                            <a href="https://www.facebook.com/fenil.savani.58"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/_fenil_savani_/"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a
+                                href="https://www.linkedin.com/search/results/all/?keywords=fenil%20savani&origin=RICH_QUERY_SUGGESTION&position=2&searchId=9686b241-a2c9-4211-b4ef-9b5d165120ed&sid=px."><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/fenil322/"><i class="fab fa-github"></i></a>
                         </ul>
                     </div>
-
-                </div>
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="fenil.jpg" alt="">
-                    </div>
-                    <div class="content">
+                    <div class="card">
+                        <div class="image">
+                            <img src="yash.jpg" alt="" />
+                        </div>
+                        <h2>Yash Ginoya</h2>
                         <div class="contentBx">
-                            <h3>Fenil Savani<br><span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                            <span>Competitive Programmer</span><br><span>Android Developer</span><br><span>Computer
+                                Engineer(B.Tech) <br>From Nirma University,Ahmedabad.</span>
                         </div>
                         <ul class="sci">
-                            <li style="--i:1;"><a href="https://www.facebook.com/fenil.savani.58"><i
-                                        class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/_fenil_savani_/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a
-                                    href="https://www.linkedin.com/search/results/all/?keywords=fenil%20savani&origin=RICH_QUERY_SUGGESTION&position=2&searchId=9686b241-a2c9-4211-b4ef-9b5d165120ed&sid=px."><i
-                                        class="fab fa-linkedin"></i></a></li>
+                            <a href="https://www.facebook.com/profile.php?id=100013938345959"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/yash.ginoya/"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/yashginoya/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/yashginoya/"><i class="fab fa-github"></i></a>
                         </ul>
                     </div>
-
-                </div>
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="harshvardhan.jpg" alt="">
-                    </div>
-                    <div class="content">
+                    <div class="card">
+                        <div class="image">
+                            <img src="jenish.jpg" alt="" />
+                        </div>
+                        <h2>Jenish Bodar</h2>
                         <div class="contentBx">
-                            <h3>Harshvardhansinh Jadeja<br><span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information Technology  (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                            <span>Chemical Engineer (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span>
                         </div>
                         <ul class="sci">
-                            <li style="--i:1;"><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/harshvardhan_49/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a
-                                    href="https://www.linkedin.com/search/results/all/?keywords=jadeja%20harshvardhansinh&origin=RICH_QUERY_SUGGESTION&position=0&searchId=6f033f08-0e85-455d-abe8-6b2b2c63f313&sid=7tL"><i
-                                        class="fab fa-linkedin"></i></a></li>
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/jenish_bodar_2026/"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/jenish-bodar-6a9542221/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <!-- <a
+                                href=""><i
+                                    class="fab fa-github"></i></a> -->
                         </ul>
                     </div>
-
-                </div>
-
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="prince.jpg " alt="">
-                    </div>
-                    <div class="content">
+                    <div class="card">
+                        <div class="image">
+                            <img src="harshvardhan.jpg" alt="" />
+                        </div>
+                        <h2>Harshvardhan Jadeja</h2>
                         <div class="contentBx">
-                            <h3>Prince Vekariya<br><span>Chemical Engineer (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                            <span>Competitive Programmer</span><br><span>Web Developer</span><br><span> Information
+                                Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span>
                         </div>
                         <ul class="sci">
-                            <li style="--i:1;"><a href="https://www.facebook.com/prince.vekariya.71"><i
-                                        class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/prince.vekariya.71/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a
-                                    href="https://www.linkedin.com/search/results/all/?keywords=prince%20vekariya&origin=RICH_QUERY_SUGGESTION&position=2&searchId=b925331d-584c-4d03-9d73-af5dcb50bf1f&sid=3qr"><i
-                                        class="fab fa-linkedin"></i></a></li>
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/harshvardhan_49/"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/jadeja-harshvardhansinh/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Harshvardhansinh-jadeja/"><i class="fab fa-github"></i></a>
                         </ul>
                     </div>
-
-                </div>
-
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="jenish.jpg" alt="">
-                    </div>
-                    <div class="content">
+                    <div class="card">
+                        <div class="image">
+                            <img src="prince.jpg" alt="" />
+                        </div>
+                        <h2>Prince Vekariya</h2>
                         <div class="contentBx">
-                            <h3>Jenish Bodar<br><span> Chemical Engineer (B.Tech) <br>  From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
+                            <span>Chemical Engineer (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span>
                         </div>
                         <ul class="sci">
-                            <li style="--i:1;"><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/jenish_bodar_2026/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a href="https://www.linkedin.com/in/jenish-bodar-6a9542221/"><i
-                                        class="fab fa-linkedin"></i></a></li>
+                            <a href="https://www.facebook.com/prince.vekariya.71"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/prince.vekariya.71/"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/prince-vekariya-86183320a/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <!-- <a
+                                href=""><i
+                                    class="fab fa-github"></i></a> -->
                         </ul>
                     </div>
 
                 </div>
-                
-
-                <div class="card">
-                    <div class="imgBx">
-                        <img src="swety.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <div class="contentBx">
-                            <h3>Swetangi Satasiya<br><span>Competitive Programmer</span><br><span>Information Technology (B.Tech) <br> From Dharmsinh Desai University (DDU),Nadiad.</span></h3>
-                        </div>
-                        <ul class="sci">
-                            <li style="--i:1;"><a href="https://www.facebook.com/satasiya.swetangi"><i
-                                        class="fab fa-facebook"></i></a></li>
-                            <li style="--i:2;"><a href="https://www.instagram.com/swetangi_satasiya_/"><i
-                                        class="fab fa-instagram-square"></i></a></li>
-                            <li style="--i:3;"><a href="https://www.linkedin.com/in/swetangi-satasiya-91786422b/"><i class="fab fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
             </div>
+
         </div>
     </section>
 
@@ -357,7 +345,7 @@
                                 <div class="sub-title">Miraj.V.Soliya</div>
                             </div>
                         </div>
-                       
+
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
@@ -381,8 +369,11 @@
                         </div>
                         <div class="row">
                             <a href="https://www.facebook.com/soliya.miraj.1"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/miraj_soliya/"><i class="fab fa-instagram-square"></i></a>
-                            <a href="https://www.linkedin.com/in/miraj-soliya-27112002/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/miraj_soliya/"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a href="https://www.linkedin.com/in/miraj-soliya-27112002/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/mirajsoliya"><i class="fab fa-github"></i></a>
                         </div>
 
 
@@ -426,7 +417,7 @@
 
     <!-- footer start -->
     <footer>
-        <span>Created By <a href="">Miraj Soliya</a> | <span class="far fa-copyright"></span>2021 All right
+        <span>Created By <a href="">Miraj Soliya</a> | <span class="far fa-copyright"></span>2023 All right
             reserved.</span>
     </footer>
 
@@ -435,6 +426,7 @@
 
     <script src="index.js"></script>
     <script src="portfolio.js"></script>
+
 
 </body>
 
