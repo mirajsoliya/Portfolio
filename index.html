@@ -18,6 +18,16 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="index.js"></script>
+    <script src="portfolio.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("XWjIhJppYWHoooa8J");
+        })();
+    </script>
+
 </head>
 
 <body>
@@ -30,7 +40,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn"><i class="fas fa-home"></i>Home</a></li>
                 <li><a href="#about" class="menu-btn"><i class="fas fa-user-alt"></i>About</a></li>
-                <li><a href="#services" class="menu-btn"><i class="fas fa-cog"></i>Services</a></li>
+                <li><a href="#services" class="menu-btn"><i class="fas fa-book"></i>Project</a></li>
                 <li><a href="#skills" class="menu-btn"><i class="fab fa-codepen"></i>Skill</a></li>
                 <li><a href="#teams" class="menu-btn"><i class="fas fa-users"></i>Teams</a></li>
                 <li><a href="#contact" class="menu-btn"><i class="fas fa-phone-square-alt"></i></i>Contact</a></li>
@@ -85,25 +95,71 @@
 
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">services</h2>
+            <h2 class="title">Project</h2>
             <div class="serv-content">
                 <div class="cardservice">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Developer</div>
-                        <p>I make Website Using HTML,CSS,JavaScript AND Using Libraries Like ReactJS,Express,NodeJS.
+
+                        <i class="fa-solid fa-address-book"></i>
+
+                        <div class="text">Smart Contact Manager <a
+                                href="https://github.com/mirajsoliya/SmartContactManager.git"><i
+                                    class="fab fa-github icon"></i></a> </div>
+                        <p>• A Smart contact manager is a Web application that allows users to create an account and
+                            conveniently store their contacts in one place. With this contact manager, users can
+                            efficiently manage their personal or professional contacts. The application typically offers
+                            features such as adding, editing, and deleting contacts.Users can store essential
+                            information like names, phone numbers, email addresses, and additional notes for each
+                            contact.
                         </p>
+                        <h4>• Technology : </h4> <span>Spring-Boot | Thymleaf | Bootstrap | HTML | CSS | JavaScript</span>
+
+                    </div>
+
+                </div>
+                <div class="cardservice">
+                    <div class="box">
+                        <i class="fa-solid fa-clock"></i>
+                        <div class="text">Automatic Timer Based Irrigation System <a
+                                href="https://drive.google.com/drive/folders/1sla8GpBi6A6rlWrqZdhfGXXwCC94Tm8B"><i
+                                    class="fab fa-github icon"></i></a></div>
+                        <p>• This project is hardware based and In this Project We can control the whole
+                            system Using Google Excel Sheet from how much time we release Water and in
+                            how many slots during the day. The power supply, sensing unit, control unit and
+                            pumping subsystems which make up the automatic irrigation control system.</p>
+                            <h4>• Technology : </h4> <span>Excel App Script | Arduino IDE</span>
+                    </div>
+                </div>
+                <div class="cardservice">
+                    <div class="box">
+
+                        <i class="fa-solid fa-house-medical"></i>
+                        <div class="text">Swasthya Web App <a href="https://github.com/my1243/swasthya"><i
+                                    class="fab fa-github icon"></i></a></div>
+                        <p>• ”Swasthya” website is used to refer to new Patients and doctors . Doctor can
+                            create a report based on the patient’s disease, diagnosis and medicines.</p>
+                        <p>• Admin - Register new doctors, new patients, book appointments,update details.</p>
+                        <p>• Doctor- create a report, check the appointments.</p>
+                        <h4>• Technology : </h4> <span>React-native | NodeJS | Tailwind | MongoDB | ExpressJS</span>
 
                     </div>
                 </div>
                 <div class="cardservice">
                     <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Competitive coder</div>
-                        <p>I have good experience with C++ language . DSA and OOPS are also.</p>
+                        <i class="fa-solid fa-hospital-user"></i>
+                        <div class="text">Swasthya Mobile App <a
+                                href="https://github.com/mirajsoliya/SwasthyaMobileApp"><i
+                                    class="fab fa-github icon"></i></a></div>
+
+                        <p>• ”Swasthya” Mobile App provide patient can make an appointment and also get a
+                            notification of when to take the medicine.The patient can see the diagnosis given by the doctor .</p>
+                        <p>• Patient - Create Appoinment with Date and Time , get notification reminderfor
+                            medicine , view all prescription</p>
+                        <h4>• Technology : </h4> <span>ReactJS | NodeJS | Tailwind | MongoDB | ExpressJS</span>
 
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -383,9 +439,8 @@
 
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#" id="contactme">
-                        <div class="alert">Your message sent..</div>
-                        <br>
+
+                    <div id="contactme">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" id="yourname" placeholder="Name" required>
@@ -395,16 +450,13 @@
                                 <input type="email" id="youremail" placeholder="Email" required>
                             </div>
                         </div>
-                        <div class="field ">
-                            <input type="text" id="yoursubject" placeholder="Subject" required>
-                        </div>
                         <div class="field textarea">
                             <textarea id="msg" cols="30" rows="10" placeholder="Describe project.." required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Send Message</button>
+                            <button type="submit" onclick="sendMail()">Send Message</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
 
 
@@ -424,8 +476,7 @@
 
 
 
-    <script src="index.js"></script>
-    <script src="portfolio.js"></script>
+
 
 
 </body>
